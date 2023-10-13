@@ -88,6 +88,7 @@ while running:
 
 pygame.quit()
 ```
+OpenAI. (2023). _ChatGPT_ (September 25 Version) [Large language model]. https://chat.openai.com
 
 In this code:
 
@@ -171,6 +172,7 @@ while running:
 
 pygame.quit()
 ```
+OpenAI. (2023). _ChatGPT_ (September 25 Version) [Large language model]. https://chat.openai.com
 
 In this code:
 
@@ -195,3 +197,14 @@ This was fun and took way more time than I had expected. I hope to turn this int
 
 ### stack 
 vim, osx, obsidian, chrome
+
+### next steps
+-more prompt engineering
+-use an open source model
+-run an open source model locally
+-train an open source model on my own data
+-I also just got it in my head to use LLMs to generate speech acts. Not sure what that would be but I'm reading lots of performance theory these days 
+-spell check and grammar check my write ups  
+
+### addendum 
+- I asked chat gpt to "improve this writing by making it more engaging and readble with better grammar and spelling". - read the result here
