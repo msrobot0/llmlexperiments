@@ -1,0 +1,14 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define a gray arrow -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5">
+            <polygon points="0 0, 10 3.5, 0 7" fill="gray" />
+        </marker>
+    </defs>
+
+    <!-- Example path with an arrow -->
+    <path d="M50 50 Q150 0 250 50 Q350 100 250 150 Q150 200 50 150 Q-50 100 50 50" 
+          stroke="gray" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+        <animate attributeName="d" from="M50 50 Q150 0 250 50 Q350 100 250 150 Q150 200 50 150 Q-50 100 50 50" to="M50 50 Q150 200 250 50 Q350 0 250 150 Q150 100 50 50 Q-50 100 50 50" dur="4s" begin="0s" repeatCount="indefinite" />
+    </path>
+</svg>
