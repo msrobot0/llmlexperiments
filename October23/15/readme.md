@@ -1,7 +1,7 @@
 # Experiment 3: Poem
 
 ![[poem.png]]
-(THE CODE)[]
+[View the Code and Output on GitHub](https://github.com/msrobot0/llmlexperiments/blob/main/README.md)
 I thought today would be quick. I was working on writing prompts to autogenerate music with csound but I was having lots of problems - in a large part because my csound knowledge is poor.  This morning I met with a poetry reading/writing group that I have been meeting with on and off since before the pandemic! It felt so damn good. And I thought- -I am going to write python to write poetry.
 
 I listened to [John Giorno](https://www.youtube.com/watch?v=U18MJLVrxUU) last night reading "thanx for nothing."  I also watched [this recording of thanx for nothing](https://www.youtube.com/watch?v=-tO_r7U_MLo). As I write this maybe I should have written a prompt that looked at both these poems or inspiration but I did not.  What this did do was inspire me to output a spoken word piece - which is text to speech and sounds like crap - but hey LLMS did it. 
