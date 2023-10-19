@@ -1,0 +1,10 @@
+Experiment Log
+----------------
+
+Date and Time: 2023-10-18 23:40:02
+Experiment Description: Generating a document template in python
+----------------------------------------
+
+Date and Time: 2023-10-18 23:40:21
+Experiment Description: Does this go on forever
+----------------------------------------
