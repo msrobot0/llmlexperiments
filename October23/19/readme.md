@@ -1,15 +1,15 @@
-###3D
+### 3D
 So I was trying to get the llm blender code integration to work but I
 think there is a bug with osx. I am going to try wiht my ubuntu machine
 tomorrow. 
 
 Instead I have been thinking about GIS and geographical data. 
 
-###Prompt
+### Prompt
 >i create a simulation of a volcano from us geological data
 
 
-####Code
+#### Code
 Creating a realistic simulation of a volcano using US Geological data is a complex and data-intensive task that typically involves geographic information systems (GIS), computational fluid dynamics, and geological data sources. However, I can provide a simplified Python example of how to create a basic visual representation of a volcano using 3D graphics with the VPython library. This simulation is not based on real geological data but can serve as a starting point for visualization:
 
 ```python
