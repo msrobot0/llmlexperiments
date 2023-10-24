@@ -1,0 +1,32 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  ARTIFACTS_DIR: artifacts
+  PUBLIC_DIR: public
+
+before_script:
+  - chmod +x scripts/gen_art.sh  # Add execute permission to the script
+
+
+generate_ascii_art:
+  stage: build
+  image: python:3.8  # Use a Python image with Python 3.8 (or choose a suitable version)
+  script:
+    - mkdir -p $ARTIFACTS_DIR
+    - python -m pip install art  
+    - ./scripts/gen_art.sh src/app.py > $ARTIFACTS_DIR/ascii_art.txt
+  artifacts:
+    paths:
+      - $ARTIFACTS_DIR/ascii_art.txt
+
+deploy_to_website:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cp $ARTIFACTS_DIR/ascii_art.txt $PUBLIC_DIR/index.html
+  artifacts:
+    paths:
+      - $PUBLIC_DIR
