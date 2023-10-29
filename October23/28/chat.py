@@ -24,7 +24,8 @@ while True:
     if user_input.lower() == "quit":
         break
 
-    # Generate a video game prompt based on user input
-    generated_prompt = generate_video_game_prompt(user_input, max_length=50, temperature=0.7)
+    # Add a game-related prompt
+    game_prompt = "In the world of video games, " + user_input
+    generated_prompt = generate_video_game_prompt(game_prompt, max_length=500, temperature=0.7)
 
     print("Bot:", generated_prompt)
