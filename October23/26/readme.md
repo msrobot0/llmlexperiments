@@ -2,6 +2,8 @@
 
 I was having a conversation the other day with a friend who said LLMs were all trained on stolen data. I said yes - this is called "primitive accumulation" - it is the origin of capitalism. 
 
+https://youtu.be/dY0owvojt4A
+
 But I am not really interested in LLM content generation for our future when we all sleep in pods, matrix style, hooked up to vr headsets watching AI generated entertainment that will probably be better than some entertainment today (reality tv for example).
 
 What I AM interested in is the relationship between LLMs and engineering and how LLMs can insert itself into the engineering process. Build me a component that does X. This can be an electrical component, a chemical component, a mechanical component, a programming component. My experiments have been programming components since this is what I understand. But I have also been studying phytochemistry- not much - so I really dont know anything. 
