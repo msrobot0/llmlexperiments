@@ -1,0 +1,6 @@
+version: "3.1"
+stories:
+  - story: Greet and Generate Response
+    steps:
+      - intent: greet
+      - action: action_generate_response
