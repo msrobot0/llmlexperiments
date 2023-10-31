@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Colorful Twine Game</title>
+    <link rel="stylesheet" type="text/css" href="twine.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .passage {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            color: #333; /* Text color */
+        }
+        .choices .choice {
+            background-color: #3498db; /* Choice button background color */
+            color: #fff; /* Choice button text color */
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .choices .choice:hover {
+            background-color: #2980b9; /* Choice button background color on hover */
+        }
+        h1 {
+            color: #e74c3c; /* Header text color */
+        }
+        p {
+            color: #27ae60; /* Paragraph text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="passage" id="start">
+        <h1>Welcome to the Colorful Twine Game</h1>
+        <p>You find yourself in a vibrant and surreal world. Your adventure begins here.</p>
+        <div class="choices">
+            <span class="choice" data-passage="redRoom">Enter the Red Room</span>
+            <span class="choice" data-passage="blueRoom">Enter the Blue Room</span>
+        </div>
+    </div>
+
+    <div class="passage" id="redRoom">
+        <h1>The Red Room</h1>
+        <p>You step into a room filled with shades of red. It's warm and inviting.</p>
+        <div class="choices">
+            <span class="choice" data-passage="roseGarden">Walk through the Rose Garden</span>
+            <span class="choice" data-passage="orangeDoor">Open the Orange Door</span>
+        </div>
+    </div>
+
+    <div class="passage" id="roseGarden">
+        <h1>The Rose Garden</h1>
+        <p>You find yourself in a beautiful rose garden with vibrant flowers in all shades of red.</p>
+        <div class="choices">
+            <span class="choice" data-passage="smellRoses">Smell the Roses</span>
+            <span class="choice" data-passage="leaveGarden">Leave the Garden</span>
+        </div>
+    </div>
+
+    <div class="passage" id="smellRoses">
+        <h1>A Blissful Experience</h1>
+        <p>The scent of roses fills the air, and you feel a sense of calm and happiness.</p>
+        <div class="choices">
+            <span class="choice" data-passage="redRoom">Return to the Red Room</span>
+        </div>
+    </div>
+
+    <div class="passage" id="blueRoom">
+        <h1>The Blue Room</h1>
+        <p>You enter a room with shades of blue. It's cool and calming.</p>
+        <div class="choices">
+            <span class="choice" data-passage="underwaterAdventure">Dive into an Underwater Adventure</span>
+            <span class "choice" data-passage="greenDoor">Open the Green Door</span>
+        </div>
+    </div>
+
+    <!-- Add more passages and choices to create a complex and colorful storyline -->
+
+</body>
+</html>
