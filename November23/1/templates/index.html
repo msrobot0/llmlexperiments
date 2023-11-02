@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Categorization</title>
+</head>
+<body>
+    <h1>Text Categorization App</h1>
+    <form action="/categorize" method="post">
+        <textarea name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
+        <br>
+        <input type="submit" value="Categorize">
+    </form>
+    <h2>Category:</h2>
+    <p id="category"></p>
+
+    <script>
+        // Add JavaScript to display the category result
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const text = document.querySelector("textarea").value;
+            fetch("/categorize", {
+                method: "POST",
+                body: new URLSearchParams({ text }),
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("category").textContent = data.category;
+            });
+        });
+    </script>
+</body>
+</html>
+

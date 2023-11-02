@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+  <!-- Word "cat" -->
+  <circle id="cat" cx="50" cy="150" r="10" fill="blue">
+    <animateMotion dur="3s" repeatCount="1">
+      <mpath href="#cat-path" />
+    </animateMotion>
+  </circle>
+  <path id="cat-path" d="M50,150 C100,50 200,50 250,150" stroke="blue" fill="none" />
+
+  <!-- Word "dog" -->
+  <circle id="dog" cx="100" cy="150" r="10" fill="red">
+    <animateMotion dur="3s" repeatCount="1">
+      <mpath href="#dog-path" />
+    </animateMotion>
+  </circle>
+  <path id="dog-path" d="M100,150 C150,50 250,50 300,150" stroke="red" fill="none" />
+
+  <!-- Word "fish" -->
+  <circle id="fish" cx="150" cy="150" r="10" fill="green">
+    <animateMotion dur="3s" repeatCount="1">
+      <mpath href="#fish-path" />
+    </animateMotion>
+  </circle>
+  <path id="fish-path" d="M150,150 C200,50 300,50 350,150" stroke="green" fill="none" />
+
+  <line x1="50" y1="150" x2="350" y2="150" stroke="gray" />
+</svg>
+

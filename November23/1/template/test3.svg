@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <!-- Original Words -->
+  <text id="cat" x="50" y="100" font-size="20" fill="blue">Cat</text>
+  <text id="dog" x="200" y="100" font-size="20" fill="red">Dog</text>
+  <text id="fish" x="350" y="100" font-size="20" fill="green">Fish</text>
+
+  <!-- High-dimensional Space -->
+  <text x="50" y="200" font-size="20" fill="gray">High-Dimensional Space</text>
+
+  <!-- Low-dimensional Space -->
+  <text x="50" y="400" font-size="20" fill="gray">Low-Dimensional Space</text>
+
+  <!-- Relationships -->
+  <line id="cat-line" x1="50" y1="300" x2="200" y2="300" stroke="gray" stroke-width="2">
+    <animate attributeName="x2" from="200" to="100" dur="2s" fill="freeze" />
+  </line>
+  <line id="dog-line" x1="200" y1="300" x2="350" y2="300" stroke="gray" stroke-width="2">
+    <animate attributeName="x2" from="350" to="250" dur="2s" fill="freeze" />
+  </line>
+
+  <animateMotion xlink:href="#cat" dur="2s" repeatCount="1">
+    <mpath href="#cat-path" />
+  </animateMotion>
+  <animateMotion xlink:href="#dog" dur="2s" repeatCount="1">
+    <mpath href="#dog-path" />
+  </animateMotion>
+
+  <!-- Paths to Low-Dimensional Space -->
+  <path id="cat-path" d="M50,100 Q125,0 200,100" fill="none" />
+  <path id="dog-path" d="M200,100 Q275,0 350,100" fill="none" />
+</svg>
+

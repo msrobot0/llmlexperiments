@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <!-- Original Words -->
+  <text x="50" y="100" font-size="20" fill="blue">Cat</text>
+  <text x="200" y="100" font-size="20" fill="red">Dog</text>
+  <text x="350" y="100" font-size="20" fill="green">Fish</text>
+
+  <!-- High-dimensional Space -->
+  <text x="50" y="200" font-size="20" fill="gray">High-Dimensional Space</text>
+
+  <!-- Word Embeddings -->
+  <circle cx="50" cy="300" r="20" fill="blue" />
+  <circle cx="200" cy="300" r="20" fill="red" />
+  <circle cx="350" cy="300" r="20" fill="green" />
+
+  <!-- Low-dimensional Space -->
+  <text x="50" y="400" font-size="20" fill="gray">Low-Dimensional Space</text>
+
+  <!-- Relationships -->
+  <line x1="50" y1="300" x2="200" y2="300" stroke="gray" stroke-width="2" />
+  <line x1="200" y1="300" x2="350" y2="300" stroke="gray" stroke-width="2" />
+</svg>
+
