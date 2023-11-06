@@ -1,0 +1,36 @@
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.flame-container {
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+
+.flame {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(orange, transparent);
+    position: absolute;
+    bottom: 0;
+    animation: flame 1s infinite;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
