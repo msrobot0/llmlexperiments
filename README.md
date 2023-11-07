@@ -26,3 +26,4 @@ Experiments with Large Language Models Generating Code
 -  [Experiment 23](https://github.com/msrobot0/llmlexperiments/tree/main/November23/4)
 -  [Experiment 24](https://github.com/msrobot0/llmlexperiments/tree/main/November23/5)
 -  [Experiment 25](https://github.com/msrobot0/llmlexperiments/tree/main/November23/6)
+-  [Experiment 26](https://github.com/msrobot0/llmlexperiments/tree/main/November23/6)
