@@ -28,3 +28,25 @@ although still this is not great.
 Will do more work tomorrow.
 
 https://github.com/msrobot0/llmlexperiments/
+
+of Jacob Moleschott’s e
+
+I am fucking tired
+relating to you - working day
+now  anarchist 
+
+
+dialectic of first and second nature
+
+As such, dialectic is not simply an ontological causality; it is also an ethics — an aspect of dialectical philosophy that has not been sufficiently emphasized.
+
+capacity and potentiality 
+
+restless critique of reality 
+"negative philosophy"
+
+speculative is creative in that it 
+
+"By the same token, speculation is creative in that it ceaselessly contrasts the free, rational, and moral actuality of “what-could-be, which inheres in nature’s thrust toward self-reflexivity, with the existential reality of “what-is.” 24Speculation can ask “why” (not only “how”) the real has become the irrational — indeed, the inhuman and anti-ecological — precisely because dialectic alone is capable of grounding an ecological ethics in the potential, that is, in its objective possibilities for the realization of reason and truth."
+
+Bookchin 
